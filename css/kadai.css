@@ -1,0 +1,73 @@
+.tokei{
+    display: block;
+    height: 180px;
+    background-color: #ffffff;
+    margin-top:0;
+}
+
+#showTime{
+    font-size: 120px;
+    text-align: center;
+    font-family: "Ravi Prakash", cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.botan{
+    display: grid;
+    gap: 10px;
+    grid-template-columns:repeat(4, minmax(100px,1fr));
+    height: auto;
+    text-align: center;
+    background-color: #ffffff;
+    color: #fff;
+    width: 500px;
+    margin-left: auto; margin-right: auto;
+    margin-top: 0;
+}    
+
+
+.botan1 img{
+    width: 140px
+}
+
+.botan1 input{
+  width: 120px;
+  height: 120px;
+  background-color: #F9C80E;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.hyouji{
+	height: 350px;
+  width: 420px;
+	overflow: auto;
+	padding-right: 20px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+/* スクロールボックス*/
+.hyouji.deco::-webkit-scrollbar {
+    width: 15px;
+}
+
+.hyouji.deco::-webkit-scrollbar-track {
+  border-radius: 10px;
+	background: #f2f2f2;
+}
+
+.hyouji.deco::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	background:#09C9D9;
+}
